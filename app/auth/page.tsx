@@ -43,9 +43,6 @@ export default function AuthPage() {
         setError(`Instance is not authorized: ${state.stateInstance ?? "unknown"}`)
         return
       }
-
-      // Telegram: settings apply within ~5 minutes and restart the instance.
-      // Call only on login, not on every page load.
       try {
         await setHttpApiSettings(credentials)
       } catch {
@@ -67,12 +64,9 @@ export default function AuthPage() {
 
   return (
     <div className="flex h-full items-center justify-center bg-[radial-gradient(circle_at_top,#dce8f8,#e8eef4_45%,#dfe6ee)] px-4">
-      <div className="w-full max-w-md rounded-3xl bg-white/95 p-8 shadow-[0_20px_60px_rgba(27,36,48,0.12)]">
-        <p className="text-center text-sm font-medium tracking-[0.18em] text-[#2a6df4]">
-          GREEN-API
-        </p>
+      <div className="w-full max-w-md rounded-3xl bg-white/95 p-8">
         <h1 className="mt-2 text-center text-3xl font-semibold tracking-tight text-[#1b2430]">
-          Telegram Chat
+          GREEN-API App
         </h1>
         <p className="mt-2 text-center text-sm leading-relaxed text-[#6b7785]">
           Enter credentials from your GREEN-API Telegram instance.
@@ -111,23 +105,6 @@ export default function AuthPage() {
               required
               autoComplete="off"
               placeholder="apiTokenInstance"
-              className="h-11 w-full rounded-xl border border-[#c9d2dc] bg-white px-3 text-sm outline-none transition placeholder:text-[#9aa5b1] focus:border-[#2a6df4] focus:ring-2 focus:ring-[#2a6df4]/20"
-            />
-          </div>
-
-          <div className="space-y-1.5">
-            <label
-              htmlFor="apiUrl"
-              className="text-sm font-medium text-[#3d4754]"
-            >
-              API URL <span className="font-normal text-[#8a95a3]">(optional)</span>
-            </label>
-            <input
-              id="apiUrl"
-              name="apiUrl"
-              type="url"
-              autoComplete="off"
-              placeholder="https://4100.api.green-api.com"
               className="h-11 w-full rounded-xl border border-[#c9d2dc] bg-white px-3 text-sm outline-none transition placeholder:text-[#9aa5b1] focus:border-[#2a6df4] focus:ring-2 focus:ring-[#2a6df4]/20"
             />
           </div>
