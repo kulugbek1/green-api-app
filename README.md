@@ -31,13 +31,13 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/ВАШ_USERNAME/ВАШ_REPOSITORY.git
+git clone https://github.com/kulugbek1/green-api-app.git
 ````
 
 ### 2. Переход в директорию проекта
 
 ```bash
-cd ВАШ_REPOSITORY
+cd green-api-app
 ```
 
 ### 3. Установка зависимостей
@@ -95,7 +95,7 @@ npm run dev
 
 ## Репозиторий
 
-[https://github.com/ВАШ_USERNAME/ВАШ_REPOSITORY](https://github.com/kulugbek1/green-api-app)
+https://github.com/kulugbek1/green-api-app.git
 
 ## Важно
 
