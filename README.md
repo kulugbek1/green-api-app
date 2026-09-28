@@ -91,7 +91,7 @@ https://green-api.com/
 
 ## Онлайн-версия
 
-https://green-api-app-ku.vercel.app/auth
+https://green-api-app-ku.vercel.app
 
 ## Репозиторий
 
