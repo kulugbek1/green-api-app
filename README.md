@@ -71,10 +71,7 @@ npm run dev
 
 ## Работа с чатами
 
-Для создания нового чата необходимо указать:
-
-* имя пользователя;
-* номер телефона.
+Для создания нового чата необходимо указать номер телефона.
 
 После создания чат появляется в списке чатов.
 
@@ -94,11 +91,11 @@ npm run dev
 
 ## Онлайн-версия
 
-[https://ВАШ-ДОМЕН.vercel.app](https://ВАШ-ДОМЕН.vercel.app)
+[https://ВАШ-ДОМЕН.vercel.app](https://green-api-app-ku.vercel.app/auth)
 
 ## Репозиторий
 
-[https://github.com/ВАШ_USERNAME/ВАШ_REPOSITORY](https://github.com/ВАШ_USERNAME/ВАШ_REPOSITORY)
+[https://github.com/ВАШ_USERNAME/ВАШ_REPOSITORY](https://github.com/kulugbek1/green-api-app)
 
 ## Важно
 
@@ -108,7 +105,7 @@ npm run dev
 
 Улугбек Камолходжаев
 
-Telegram: @ВАШ_TELEGRAM
+Telegram: @kulugbek5
 
 ```
 ```
