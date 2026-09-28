@@ -54,7 +54,7 @@ npm run dev
 
 После запуска откройте в браузере:
 
-[http://localhost:3000](http://localhost:3000)
+http://localhost:3000
 
 ## Подключение GREEN-API
 
@@ -87,11 +87,11 @@ npm run dev
 
 Документация API:
 
-[https://green-api.com/](https://green-api.com/)
+https://green-api.com/
 
 ## Онлайн-версия
 
-[https://ВАШ-ДОМЕН.vercel.app](https://green-api-app-ku.vercel.app/auth)
+https://green-api-app-ku.vercel.app/auth
 
 ## Репозиторий
 
@@ -106,6 +106,3 @@ https://github.com/kulugbek1/green-api-app.git
 Улугбек Камолходжаев
 
 Telegram: @kulugbek5
-
-```
-```
